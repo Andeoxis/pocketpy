@@ -71,7 +71,7 @@ int py_replinput(char* buf, int max_size) {
 
     int size = 0;
     bool multiline = false;
-    printf(">>> ");
+    printf("LeandroAI>>> ");
 
     while(true) {
         int c = pk_current_vm->callbacks.getchr();
