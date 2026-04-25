@@ -1,3 +1,18 @@
+# 🛠️ Anthony's Hardware Bridge (PocketPy Custom Fork)
+
+## Overview
+This repository contains my custom "Hardware Bridge" implementation. It acts as a lightweight translation layer designed to connect high-level Python scripts with high-performance C++ execution. It uses the PocketPy interpreter as the core engine to simplify robotics and hardware control.
+
+## Motivation
+In hardware development, Python is highly accessible for scripting but lacks the raw execution speed required for real-time motor control. C++ offers bare-metal performance but has a slower prototyping cycle. My project bridges that gap.
+
+## Key Features
+* *Low-Latency Execution:* C++ bindings designed for high-performance hardware interactions.
+* *Rapid Prototyping:* Python interface to easily implement logic.
+
+---
+(Original PocketPy documentation below)
+---
 # pocketpy: portable python 3.x interpreter
 
 <p>
