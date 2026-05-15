@@ -50,6 +50,7 @@ TYPE_CHECKING = False
 
 # decorators
 overload = lambda x: x
+override = lambda x: x
 final = lambda x: x
 
 # exhaustiveness checking
@@ -57,5 +58,9 @@ assert_never = lambda x: x
 
 TypedDict = dict
 NotRequired = _PLACEHOLDER
+ReadOnly = _PLACEHOLDER
+Required = _PLACEHOLDER
+TypeIs = _PLACEHOLDER
+TypeGuard = _PLACEHOLDER
 
 cast = lambda _, val: val
